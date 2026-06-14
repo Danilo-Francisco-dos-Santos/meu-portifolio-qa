@@ -5,7 +5,7 @@ Portfólio QA
 Testes automatizados com Cypress para aplicação de e-commerce
 Tecnologias usadas (Cypress, cypress-mochawesome-reporter, cypress-multi-reporters)
 
-2.Estrutura do repositório
+2. Estrutura do repositório
 automacao — scripts e configuração do Cypress
 documentos — casos de teste, plano de teste e relatório de bugs
 evidencias — evidências dos testes

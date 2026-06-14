@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.484" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2026-06-14T22:52:24" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Teste de cadastro" timestamp="2026-06-14T22:52:24" tests="3" time="14.158" failures="1">
+    <testcase name="Teste de cadastro Cadastro com sucesso" time="0.000" classname="Cadastro com sucesso">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Cadastro realizado com sucesso&apos; within the element: &lt;span&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Cadastro realizado com sucesso' within the element: <span> but never did.
+    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:9:37)]]></failure>
+    </testcase>
+    <testcase name="Teste de cadastro Cadastro com falha - cadastrar o mesmo email mais de uma vez" time="2.066" classname="Cadastro com falha - cadastrar o mesmo email mais de uma vez">
+    </testcase>
+    <testcase name="Teste de cadastro Cadastro com falha - infomando e-mail incorreto" time="1.877" classname="Cadastro com falha - infomando e-mail incorreto">
+    </testcase>
+  </testsuite>
+  <testsuite name="Teste de Login" timestamp="2026-06-14T22:52:39" tests="2" time="3.538" failures="0">
+    <testcase name="Teste de Login Login com sucesso" time="1.809" classname="Login com sucesso">
+    </testcase>
+    <testcase name="Teste de Login Login com falha" time="1.638" classname="Login com falha">
+    </testcase>
+  </testsuite>
+  <testsuite name="Teste produtos no carrinho" timestamp="2026-06-14T22:52:42" tests="2" time="5.782" failures="0">
+    <testcase name="Teste produtos no carrinho Adicionar produto" time="2.579" classname="Adicionar produto">
+    </testcase>
+    <testcase name="Teste produtos no carrinho Adicionando mais de produto" time="3.104" classname="Adicionando mais de produto">
+    </testcase>
+  </testsuite>
+</testsuites>
